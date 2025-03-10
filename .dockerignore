@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+test
+.git
+.gitignore
+chromedriver.exe  # Не нужен в контейнере
+Tesseract-OCR/    # Не нужен в контейнере
