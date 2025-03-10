@@ -125,6 +125,6 @@ async def main(twitter_user, amount=0.001):
     logger.info("Завершение работы")
 
 if __name__ == "__main__":
-    twitter_user = sys.argv[1] if len(sys.argv) > 1 else "kanyewest"
+    twitter_user = sys.argv[1] if len(sys.argv) > 1 else "elonmusk"
     amount = float(sys.argv[2]) if len(sys.argv) > 2 else 0.56
     asyncio.run(main(twitter_user, amount))
